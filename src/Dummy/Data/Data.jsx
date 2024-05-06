@@ -1,0 +1,39 @@
+export const NavBarLinks= [
+    {
+        id:1,
+        name:'Home',
+        link:'/'
+    },
+    {
+        id:2,
+        name:'About',
+        link:'/about'
+    },
+    {
+        id:3,
+        name:'Services',
+        link:'/services'
+    },
+    {
+        id:4,
+        name:'Movies',
+        link:'/movies'
+    },
+    {
+        id:5,
+        name:'Contact',
+        link:'/contact'
+    },
+    {
+        id:6,
+        name:'SignUp',
+        link:'/signup'
+    },
+    {
+        id:5,
+        name:'Login',
+        link:'/login'
+    },
+    
+
+]

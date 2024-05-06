@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  
+  body, html {
+    height: 100%;
+  }
+  
+  body {
+    overflow-y: scroll;
+    /* For Firefox */
+  }
+  
+  /* Optional: Style for WebKit browsers (Chrome, Safari) */
+  body::-webkit-scrollbar {
+    display: none; /* Set the width of the scrollbar */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Set the color of the thumb */
+  }
+/* html,body{
+    overflow: hidden;
+} */
+/* body::-webkit-scrollbar{
+    display:none;
+} */
+/* styles.css */
+
+@layer components {
+    /* Custom component styles */
+   .hero {
+      @apply relative ;
+      @apply bg-black;
+      /* Additional custom style */
+    }
+    .background_img{
+        @apply w-[100vw] h-[100vh] filter brightness-[60%]
+    }
+  }
+  
+  @layer utilities {
+    /* Custom utility classes */
+    .text-red {
+      @apply text-red-500;
+    }
+  }
+  
